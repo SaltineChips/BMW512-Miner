@@ -1,0 +1,19 @@
+Open the 2start.bat using Notepad.
+
+Please note as Rubix RBX was the first to use Wish (bmw512) this miner uses a "rubix" flag
+to select the Wish algo mining thread. (e.g. -a rubix)
+
+You should see: 
+cpuminer.exe -a rubix -o http://127.0.0.1:18094/ -u yourRPCusername -p yourRPCpassword -t 1
+
+-t selects how many cores you would like to dedicate to mining. In this example we have one.
+Edit the RPCusername and RPCpassword sections to match your conif file contents.
+
+Save
+
+now start the 2start.bat
+
+Mining will begin
+
+
+
